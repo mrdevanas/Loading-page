@@ -1,0 +1,32 @@
+body{
+        margin: 0;
+     font-size: 50px;
+     color: white;
+     height: 100vh;
+     align-items: center;
+     text-align: center;
+     font-family: cursive;
+     display: flex;
+     background-color: black;
+     width: 50v;
+     justify-content: center;
+    }
+    .hh{
+        background-color: rgb(255, 200, 136);
+        animation-name: hh;
+        animation-duration:  6s;
+        height: 50px;
+       width: 300px;
+       border-radius: 30px;
+ position: absolute;
+    }
+   @keyframes hh {
+        0%{
+           width: 50px;
+           border-radius: 100px;        }
+       
+        100%{
+           width: 300px; 
+           border-radius: 30px;          
+        }
+    }
